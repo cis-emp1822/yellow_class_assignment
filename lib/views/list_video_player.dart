@@ -31,12 +31,6 @@ class _ListVideoPlayerState extends State<ListVideoPlayer> {
             .round();
     log("index" + index.toString());
     playIndexController.add(index);
-    // if (lastIndex != index) {
-    //   log("lastIndex" + lastIndex.toString());
-
-    //   // playIndexController.add(lastIndex);
-    //   lastIndex = index;
-    // }
   }
 
   @override
