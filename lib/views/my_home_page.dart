@@ -23,6 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
       ),
       body: Center(child: BlocBuilder<PlaylistsCubit, PlaylistsState>(
         builder: (context, state) {
